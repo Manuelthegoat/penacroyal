@@ -15,7 +15,7 @@ const Sidebar = () => {
                 </a>
                 <ul>
                   <li class="active">
-                    <a href="index-2.html">Dashboard</a>
+                    <a href="/">Dashboard</a>
                   </li>
                 </ul>
               </li>
@@ -54,7 +54,7 @@ const Sidebar = () => {
                     <a href="inbox.html">Add Products</a>
                   </li>
                   <li class>
-                    <a href="read-email.html">View Available Products</a>
+                    <a href="/products">View Available Products</a>
                   </li>
                 </ul>
               </li>

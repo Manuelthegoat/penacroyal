@@ -3,10 +3,7 @@ import "./App.css";
 import Sidebar from "./Components/Sidebar";
 import Settings from "./Components/Settings";
 import Header from "./Components/Header";
-import Breadcrumb from "./Components/Breadcrumb";
-import TotalCards from "./Components/TotalCards";
-import TotalGraph from "./Components/TotalGraph";
-import TotalTable from "./Components/TotalTable";
+import Routing from "./Routes";
 
 function App() {
   return (
@@ -34,10 +31,7 @@ function App() {
           <div class="crm mb-25">
             <div class="container-fluid">
               <div class="row ">
-                <Breadcrumb />
-                <TotalCards />
-                <TotalTable />
-                <TotalGraph />
+               <Routing />
               </div>
             </div>
           </div>
