@@ -1,10 +1,30 @@
 import React from "react";
 import Breadcrumb from "../Components/Breadcrumb";
 
-const Products = () => {
+const AllSales = () => {
   return (
     <>
-      <Breadcrumb />
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="breadcrumb-main">
+            <h4 class="text-capitalize breadcrumb-title">All Sales</h4>
+            <div class="breadcrumb-action justify-content-center flex-wrap">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="#">
+                      <i class="uil uil-estate"></i>Home
+                    </a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Sales Table
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="col-xxl-12 mb-25">
         <div class="card border-0 px-25">
           <div class="card-header px-0 border-0">
@@ -61,35 +81,87 @@ const Products = () => {
                     <table class="table table--default table-borderless">
                       <thead>
                         <tr>
-                          <th>Created Date</th>
+                          <th>Item Name</th>
                           <th>Item ID</th>
-                          <th>Description</th>
-                          <th>Model</th>
-                          <th>Part Code</th>
+                          <th>Created Date</th>
+                          <th>Order Date</th>
+                          <th>Customer Name</th>
+                          <th>Address</th>
+                          <th>Invoice Number</th>
                           <th>Unit Price</th>
-                          <th>Image</th>
+                          <th>Sales Price</th>
+                          <th>Payment Method</th>
+                          <th>Payment Status</th>
                           <th>Warehouse Location</th>
+                          <th>Sales Person</th>
+
                           <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>27th October 2023</td>
+                          <td>Meal Of Plate</td>
                           <td>#25</td>
-                          <td>foodstuffs</td>
-                          <td>Kano</td>
-                          <td>23445</td>
-                          <td>27000</td>
+                          <td>28 October 2023</td>
+                          <td>34 October 2023</td>
+                          <td>John Bosco Doe</td>
+                          <td>no 7 jesus street</td>
+
+                          <td>#443344</td>
+                          <td>&#8358;776</td>
+                          <td>&#8358;776</td>
+                          <td>Transfer</td>
+                          <td>Paid</td>
+                          <td>Heaven</td>
+                          <td>The Sellers</td>
                           <td>
-                            <div class="selling-product-img-wrapper order-bg-opacity-primary align-items-center">
-                              <img
-                                class=" img-fluid"
-                                src="img/author/robert-1.png"
-                                alt="img"
-                              />
+                            <div class="dropdown dropleft">
+                              <a
+                                href="#"
+                                role="button"
+                                id="else"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                              >
+                                <img
+                                  src="img/svg/more-horizontal.svg"
+                                  alt="more-horizontal"
+                                  class="svg"
+                                />
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="else">
+                                <a class="dropdown-item" href="/productdetails">
+                                  Delete
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                  Return
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                  Print Invoice
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                  Add to cart
+                                </a>
+                              </div>
                             </div>
                           </td>
-                          <td>Lagos State</td>
+                        </tr>
+                        <tr>
+                          <td>Meal Of Plate</td>
+                          <td>#25</td>
+                          <td>28 October 2023</td>
+                          <td>34 October 2023</td>
+                          <td>John Bosco Doe</td>
+                          <td>no 7 jesus street</td>
+
+                          <td>#443344</td>
+                          <td>&#8358;776</td>
+                          <td>&#8358;776</td>
+                          <td>Transfer</td>
+                          <td>Paid</td>
+                          <td>Heaven</td>
+                          <td>The Sellers</td>
                           <td>
                             <div class="dropdown dropleft">
                               <a
@@ -121,22 +193,20 @@ const Products = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td>27th October 2023</td>
+                          <td>Meal Of Plate</td>
                           <td>#25</td>
-                          <td>foodstuffs</td>
-                          <td>Kano</td>
-                          <td>23445</td>
-                          <td>27000</td>
-                          <td>
-                            <div class="selling-product-img-wrapper order-bg-opacity-primary align-items-center">
-                              <img
-                                class=" img-fluid"
-                                src="img/author/robert-1.png"
-                                alt="img"
-                              />
-                            </div>
-                          </td>
-                          <td>Lagos State</td>
+                          <td>28 October 2023</td>
+                          <td>34 October 2023</td>
+                          <td>John Bosco Doe</td>
+                          <td>no 7 jesus street</td>
+
+                          <td>#443344</td>
+                          <td>&#8358;776</td>
+                          <td>&#8358;776</td>
+                          <td>Transfer</td>
+                          <td>Paid</td>
+                          <td>Heaven</td>
+                          <td>The Sellers</td>
                           <td>
                             <div class="dropdown dropleft">
                               <a
@@ -154,8 +224,8 @@ const Products = () => {
                                 />
                               </a>
                               <div class="dropdown-menu" aria-labelledby="else">
-                                <a class="dropdown-item" href="#">
-                                  Action
+                                <a class="dropdown-item" href="/productdetails">
+                                  View More
                                 </a>
                                 <a class="dropdown-item" href="#">
                                   Another action
@@ -168,22 +238,20 @@ const Products = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td>27th October 2023</td>
+                          <td>Meal Of Plate</td>
                           <td>#25</td>
-                          <td>foodstuffs</td>
-                          <td>Kano</td>
-                          <td>23445</td>
-                          <td>27000</td>
-                          <td>
-                            <div class="selling-product-img-wrapper order-bg-opacity-primary align-items-center">
-                              <img
-                                class=" img-fluid"
-                                src="img/author/robert-1.png"
-                                alt="img"
-                              />
-                            </div>
-                          </td>
-                          <td>Lagos State</td>
+                          <td>28 October 2023</td>
+                          <td>34 October 2023</td>
+                          <td>John Bosco Doe</td>
+                          <td>no 7 jesus street</td>
+
+                          <td>#443344</td>
+                          <td>&#8358;776</td>
+                          <td>&#8358;776</td>
+                          <td>Transfer</td>
+                          <td>Paid</td>
+                          <td>Heaven</td>
+                          <td>The Sellers</td>
                           <td>
                             <div class="dropdown dropleft">
                               <a
@@ -201,8 +269,8 @@ const Products = () => {
                                 />
                               </a>
                               <div class="dropdown-menu" aria-labelledby="else">
-                                <a class="dropdown-item" href="#">
-                                  Action
+                                <a class="dropdown-item" href="/productdetails">
+                                  View More
                                 </a>
                                 <a class="dropdown-item" href="#">
                                   Another action
@@ -215,22 +283,20 @@ const Products = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td>27th October 2023</td>
+                          <td>Meal Of Plate</td>
                           <td>#25</td>
-                          <td>foodstuffs</td>
-                          <td>Kano</td>
-                          <td>23445</td>
-                          <td>27000</td>
-                          <td>
-                            <div class="selling-product-img-wrapper order-bg-opacity-primary align-items-center">
-                              <img
-                                class=" img-fluid"
-                                src="img/author/robert-1.png"
-                                alt="img"
-                              />
-                            </div>
-                          </td>
-                          <td>Lagos State</td>
+                          <td>28 October 2023</td>
+                          <td>34 October 2023</td>
+                          <td>John Bosco Doe</td>
+                          <td>no 7 jesus street</td>
+
+                          <td>#443344</td>
+                          <td>&#8358;776</td>
+                          <td>&#8358;776</td>
+                          <td>Transfer</td>
+                          <td>Paid</td>
+                          <td>Heaven</td>
+                          <td>The Sellers</td>
                           <td>
                             <div class="dropdown dropleft">
                               <a
@@ -248,8 +314,8 @@ const Products = () => {
                                 />
                               </a>
                               <div class="dropdown-menu" aria-labelledby="else">
-                                <a class="dropdown-item" href="#">
-                                  Action
+                                <a class="dropdown-item" href="/productdetails">
+                                  View More
                                 </a>
                                 <a class="dropdown-item" href="#">
                                   Another action
@@ -502,4 +568,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default AllSales;

@@ -43,7 +43,7 @@ const TotalGraph = () => {
                 <span class="label-detailed__type label-detailed__type--primary">
                   Orders
                 </span>{" "}
-                <strong class="label-detailed__total">$8,550</strong>{" "}
+                <strong class="label-detailed__total">&#8358;8,550</strong>{" "}
                 <span class="label-detailed__status color-success">
                   <img class="svg" src="img/svg/arrow-success-up.svg" alt />
                   <strong>25%</strong>
@@ -53,7 +53,7 @@ const TotalGraph = () => {
                 <span class="label-detailed__type label-detailed__type--info">
                   Sales
                 </span>{" "}
-                <strong class="label-detailed__total">$5,550</strong>{" "}
+                <strong class="label-detailed__total">&#8358;5,550</strong>{" "}
                 <span class="label-detailed__status color-danger">
                   <img class="svg" src="img/svg/arrow-danger-down.svg" alt />{" "}
                   <strong>15%</strong>

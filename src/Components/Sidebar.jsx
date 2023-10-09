@@ -31,6 +31,11 @@ const Sidebar = () => {
                       Add Sales
                     </a>
                   </li>
+                  <li class="l_sidebar">
+                    <a href="/sales" data-layout="light">
+                      All Sales
+                    </a>
+                  </li>
                 </ul>
               </li>
               {/* <li>
@@ -51,7 +56,7 @@ const Sidebar = () => {
                 </a>
                 <ul>
                   <li class>
-                    <a href="inbox.html">Add Products</a>
+                    <a href="/addproduct">Add Products</a>
                   </li>
                   <li class>
                     <a href="/products">View Available Products</a>

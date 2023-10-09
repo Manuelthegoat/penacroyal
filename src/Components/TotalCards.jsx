@@ -10,8 +10,8 @@ const TotalCards = () => {
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
                   <div class="ap-po-details__titlebar">
-                    <h1>100+</h1>
-                    <p>Total Purchase</p>
+                    <h1>100</h1>
+                    <p>Total Items</p>
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-primary color-primary">
@@ -34,8 +34,8 @@ const TotalCards = () => {
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
                   <div class="ap-po-details__titlebar">
-                    <h1>30,825</h1>
-                    <p>Total Paid</p>
+                    <h1>&#8358;30,825</h1>
+                    <p>Total Sold</p>
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-info color-info">
@@ -58,8 +58,8 @@ const TotalCards = () => {
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
                   <div class="ap-po-details__titlebar">
-                    <h1>$30,825</h1>
-                    <p>Total Unpaid</p>
+                    <h1>&#8358;30,825</h1>
+                    <p>Paid Amount</p>
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-secondary color-secondary">
@@ -82,8 +82,8 @@ const TotalCards = () => {
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
                   <div class="ap-po-details__titlebar">
-                    <h1>30,825</h1>
-                    <p>Total Supplies Recieved</p>
+                    <h1>&#8358;30,825</h1>
+                    <p>Unpaid Amount</p>
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-warning color-warning">

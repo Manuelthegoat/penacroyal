@@ -14,10 +14,7 @@ const Header = () => {
             <img class="svg" src="img/svg/align-center-alt.svg" alt="img" />
           </a>
         </div>
-        <a href="#" class="customizer-trigger">
-          <i class="uil uil-edit-alt"></i>
-          <span>Customize...</span>
-        </a>
+       
         <div class="top-menu">
           <div class="hexadash-top-menu position-relative">
             <ul class="d-flex align-items-center flex-wrap">

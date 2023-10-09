@@ -77,9 +77,9 @@ const TotalTable = () => {
                               <span>Premium Clock</span>
                             </div>
                           </td>
-                          <td>$280</td>
+                          <td>&#8358;280</td>
                           <td>339</td>
-                          <td>$38,536</td>
+                          <td>&#8358;38,536</td>
                         </tr>
                         <tr>
                           <td>
@@ -92,9 +92,9 @@ const TotalTable = () => {
                               <span>Boys T-Shirt</span>
                             </div>
                           </td>
-                          <td>$25</td>
+                          <td>&#8358;25</td>
                           <td>80</td>
-                          <td>$20,573</td>
+                          <td>&#8358;20,573</td>
                         </tr>
                         <tr>
                           <td>
@@ -107,9 +107,9 @@ const TotalTable = () => {
                               <span>Nike Shoes</span>
                             </div>
                           </td>
-                          <td>$32</td>
+                          <td>&#8358;32</td>
                           <td>58</td>
-                          <td>$17,457</td>
+                          <td>&#8358;17,457</td>
                         </tr>
                         <tr>
                           <td>
@@ -122,9 +122,9 @@ const TotalTable = () => {
                               <span>Smart Glass</span>
                             </div>
                           </td>
-                          <td>$9,50</td>
+                          <td>&#8358;9,50</td>
                           <td>36</td>
-                          <td>$15,354</td>
+                          <td>&#8358;15,354</td>
                         </tr>
                         <tr>
                           <td>
@@ -137,9 +137,9 @@ const TotalTable = () => {
                               <span>Women Bag</span>
                             </div>
                           </td>
-                          <td>$32</td>
+                          <td>&#8358;32</td>
                           <td>40</td>
-                          <td>$12,354</td>
+                          <td>&#8358;12,354</td>
                         </tr>
                       </tbody>
                     </table>
@@ -175,9 +175,9 @@ const TotalTable = () => {
                               <span>Samsung Galaxy S8 256GB</span>
                             </div>
                           </td>
-                          <td>$289</td>
+                          <td>&#8358;289</td>
                           <td>339</td>
-                          <td>$60,258</td>
+                          <td>&#8358;60,258</td>
                         </tr>
                         <tr>
                           <td>
@@ -190,9 +190,9 @@ const TotalTable = () => {
                               <span>Half Sleeve Shirt</span>
                             </div>
                           </td>
-                          <td>$29</td>
+                          <td>&#8358;29</td>
                           <td>136</td>
-                          <td>$2,483</td>
+                          <td>&#8358;2,483</td>
                         </tr>
                         <tr>
                           <td>
@@ -205,9 +205,9 @@ const TotalTable = () => {
                               <span>Marco Shoes</span>
                             </div>
                           </td>
-                          <td>$59</td>
+                          <td>&#8358;59</td>
                           <td>448</td>
-                          <td>$19,758</td>
+                          <td>&#8358;19,758</td>
                         </tr>
                         <tr>
                           <td>
@@ -220,9 +220,9 @@ const TotalTable = () => {
                               <span>15" Mackbook Pro</span>
                             </div>
                           </td>
-                          <td>$1,299</td>
+                          <td>&#8358;1,299</td>
                           <td>159</td>
-                          <td>$197,458</td>
+                          <td>&#8358;197,458</td>
                         </tr>
                         <tr>
                           <td>
@@ -235,7 +235,7 @@ const TotalTable = () => {
                               <span>Apple iPhone X</span>
                             </div>
                           </td>
-                          <td>$899</td>
+                          <td>&#8358;899</td>
                           <td>146</td>
                           <td>115,254</td>
                         </tr>
@@ -273,9 +273,9 @@ const TotalTable = () => {
                               <span>Samsung Galaxy S8 256GB</span>
                             </div>
                           </td>
-                          <td>$149</td>
+                          <td>&#8358;149</td>
                           <td>389</td>
-                          <td>$60,278</td>
+                          <td>&#8358;60,278</td>
                         </tr>
                         <tr>
                           <td>
@@ -288,9 +288,9 @@ const TotalTable = () => {
                               <span>Half Sleeve Shirt</span>
                             </div>
                           </td>
-                          <td>$59</td>
+                          <td>&#8358;59</td>
                           <td>136</td>
-                          <td>$2,483</td>
+                          <td>&#8358;2,483</td>
                         </tr>
                         <tr>
                           <td>
@@ -303,9 +303,9 @@ const TotalTable = () => {
                               <span>Marco Shoes</span>
                             </div>
                           </td>
-                          <td>$89</td>
+                          <td>&#8358;89</td>
                           <td>448</td>
-                          <td>$19,758</td>
+                          <td>&#8358;19,758</td>
                         </tr>
                         <tr>
                           <td>
@@ -318,9 +318,9 @@ const TotalTable = () => {
                               <span>15" Mackbook Pro</span>
                             </div>
                           </td>
-                          <td>$1,29</td>
+                          <td>&#8358;1,29</td>
                           <td>15</td>
-                          <td>$197,8</td>
+                          <td>&#8358;197,8</td>
                         </tr>
                         <tr>
                           <td>
@@ -333,7 +333,7 @@ const TotalTable = () => {
                               <span>Apple iPhone X</span>
                             </div>
                           </td>
-                          <td>$99</td>
+                          <td>&#8358;99</td>
                           <td>16</td>
                           <td>1154</td>
                         </tr>
