@@ -9,7 +9,7 @@ const Home = () => {
       <Breadcrumb />
       <TotalCards />
       <TotalTable />
-      <TotalGraph />
+      {/* <TotalGraph /> */}
     </>
   );
 };

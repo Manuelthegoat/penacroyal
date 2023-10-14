@@ -1417,7 +1417,7 @@ const Header = () => {
             </div>
           </li>
 
-          <li class="nav-settings">
+          {/* <li class="nav-settings">
             <div class="dropdown-custom">
               <a href="javascript:;" class="nav-item-toggle">
                 <img src="img/setting.png" alt="setting" />
@@ -1507,12 +1507,12 @@ const Header = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
           <li class="nav-author">
             <div class="dropdown-custom">
               <a href="javascript:;" class="nav-item-toggle">
-                <img src="img/author-nav.jpg" alt class="rounded-circle" />
+                <img src="img/userimg.jpg" alt class="rounded-circle" />
                 <span class="nav-item__title">
                   Admin<i class="las la-angle-down nav-item__arrow"></i>
                 </span>
@@ -1522,7 +1522,7 @@ const Header = () => {
                   <div class="nav-author__info">
                     <div class="author-img">
                       <img
-                        src="img/author-nav.jpg"
+                        src="img/userimg.jpg"
                         alt
                         class="rounded-circle"
                       />
@@ -1533,7 +1533,7 @@ const Header = () => {
                     </div>
                   </div>
                   <div class="nav-author__options">
-                    <ul>
+                    {/* <ul>
                       <li>
                         <a href>
                           <i class="uil uil-user"></i> Profile
@@ -1560,7 +1560,7 @@ const Header = () => {
                           <i class="uil uil-bell"></i> Help
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                     <a href class="nav-author__signout">
                       <i class="uil uil-sign-out-alt"></i> Sign Out
                     </a>

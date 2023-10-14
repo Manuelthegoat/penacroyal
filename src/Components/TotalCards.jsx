@@ -3,15 +3,15 @@ import React from "react";
 const TotalCards = () => {
   return (
     <>
-      <div class="col-xxl-6">
+      <div class="col-xxl-12">
         <div class="row">
-          <div class="col-xxl-6 col-sm-6 mb-25">
+          <div class="col-xxl-4 col-sm-6 mb-25">
             <div class="ap-po-details ap-po-details--2 p-25 radius-xl d-flex justify-content-between">
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
                   <div class="ap-po-details__titlebar">
                     <h1>100</h1>
-                    <p>Total Items</p>
+                    <p>Total products</p>
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-primary color-primary">
@@ -19,23 +19,17 @@ const TotalCards = () => {
                     </div>
                   </div>
                 </div>
-                <div class="ap-po-details-time">
-                  <span class="color-success">
-                    <i class="las la-arrow-up"></i>
-                    <strong>25.36%</strong>
-                  </span>
-                  <small>Since last month</small>
-                </div>
+               
               </div>
             </div>
           </div>
-          <div class="col-xxl-6 col-sm-6 mb-25">
+          <div class="col-xxl-4 col-sm-6 mb-25">
             <div class="ap-po-details ap-po-details--2 p-25 radius-xl d-flex justify-content-between">
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
                   <div class="ap-po-details__titlebar">
-                    <h1>&#8358;30,825</h1>
-                    <p>Total Sold</p>
+                    <h1>64</h1>
+                    <p>Total products Sold</p>
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-info color-info">
@@ -43,17 +37,29 @@ const TotalCards = () => {
                     </div>
                   </div>
                 </div>
-                <div class="ap-po-details-time">
-                  <span class="color-success">
-                    <i class="las la-arrow-up"></i>
-                    <strong>25.36%</strong>
-                  </span>
-                  <small>Since last month</small>
-                </div>
+               
               </div>
             </div>
           </div>
-          <div class="col-xxl-6 col-sm-6 mb-25">
+          <div class="col-xxl-4 col-sm-6 mb-25">
+            <div class="ap-po-details ap-po-details--2 p-25 radius-xl d-flex justify-content-between">
+              <div class="overview-content w-100">
+                <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
+                  <div class="ap-po-details__titlebar">
+                    <h1>825</h1>
+                    <p>Total Products Available</p>
+                  </div>
+                  <div class="ap-po-details__icon-area">
+                    <div class="svg-icon order-bg-opacity-warning color-warning">
+                      <i class="uil uil-briefcase-alt"></i>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-sm-6 mb-25">
             <div class="ap-po-details ap-po-details--2 p-25 radius-xl d-flex justify-content-between">
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
@@ -63,21 +69,15 @@ const TotalCards = () => {
                   </div>
                   <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-secondary color-secondary">
-                      <i class="uil uil-usd-circle"></i>
+                      <i class="uil uil-money-bill"></i>
                     </div>
                   </div>
                 </div>
-                <div class="ap-po-details-time">
-                  <span class="color-danger">
-                    <i class="las la-arrow-down"></i>
-                    <strong>25.36%</strong>
-                  </span>
-                  <small>Since last month</small>
-                </div>
+               
               </div>
             </div>
           </div>
-          <div class="col-xxl-6 col-sm-6 mb-25">
+          <div class="col-xxl-4 col-sm-6 mb-25">
             <div class="ap-po-details ap-po-details--2 p-25 radius-xl d-flex justify-content-between">
               <div class="overview-content w-100">
                 <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
@@ -86,18 +86,31 @@ const TotalCards = () => {
                     <p>Unpaid Amount</p>
                   </div>
                   <div class="ap-po-details__icon-area">
+                    <div class="svg-icon order-bg-opacity-warning color-danger">
+                      <i class="uil uil-money-bill"></i>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-xxl-4 col-sm-6 mb-25">
+            <div class="ap-po-details ap-po-details--2 p-25 radius-xl d-flex justify-content-between">
+              <div class="overview-content w-100">
+                <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
+                  <div class="ap-po-details__titlebar">
+                    <h1>632</h1>
+                    <p>Total Customers</p>
+                  </div>
+                  <div class="ap-po-details__icon-area">
                     <div class="svg-icon order-bg-opacity-warning color-warning">
                       <i class="uil uil-users-alt"></i>
                     </div>
                   </div>
                 </div>
-                <div class="ap-po-details-time">
-                  <span class="color-success">
-                    <i class="las la-arrow-up"></i>
-                    <strong>25.36%</strong>
-                  </span>
-                  <small>Since last month</small>
-                </div>
+               
               </div>
             </div>
           </div>

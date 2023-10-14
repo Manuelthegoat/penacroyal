@@ -19,6 +19,15 @@ const Sidebar = () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <a href="chat.html" class>
+                  <span class="nav-icon uil uil-home"></span>
+                  <span class="menu-text">Warehouse</span>
+                  <span class="badge badge-success menuItem rounded-circle">
+                    3
+                  </span>
+                </a>
+              </li>
               <li class="has-child">
                 <a href="#" class>
                   <span class="nav-icon uil uil-window-section"></span>
@@ -63,15 +72,7 @@ const Sidebar = () => {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="chat.html" class>
-                  <span class="nav-icon uil uil-home"></span>
-                  <span class="menu-text">Warehouse</span>
-                  <span class="badge badge-success menuItem rounded-circle">
-                    3
-                  </span>
-                </a>
-              </li>
+             
               <li class="has-child">
                 <a href="#" class>
                   <span class="nav-icon uil uil-user"></span>
