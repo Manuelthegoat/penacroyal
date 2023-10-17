@@ -1,15 +1,34 @@
 import React from "react";
 
-const TotalTable = () => {
+const WarehouseDetails = () => {
   return (
     <>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="breadcrumb-main">
+            <h4 class="text-capitalize breadcrumb-title">Warehouse Details</h4>
+            <div class="breadcrumb-action justify-content-center flex-wrap">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="#">
+                      <i class="uil uil-estate"></i>Home
+                    </a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Warehouse details
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="col-xxl-12 col-lg-6 mb-25">
         <div class="card border-0 px-25">
           <div class="card-header px-0 border-0">
-            <h6>Restock Required</h6>
-            <div class="card-extra">
-             
-            </div>
+            {/* <h6>Restock Required</h6> */}
+            <div class="card-extra"></div>
           </div>
           <div class="card-body p-0">
             <div class="tab-content">
@@ -111,7 +130,6 @@ const TotalTable = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
@@ -120,4 +138,4 @@ const TotalTable = () => {
   );
 };
 
-export default TotalTable;
+export default WarehouseDetails;

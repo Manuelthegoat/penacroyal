@@ -19,14 +19,25 @@ const Sidebar = () => {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="chat.html" class>
+
+              <li class="has-child">
+                <a href="#" class>
                   <span class="nav-icon uil uil-home"></span>
                   <span class="menu-text">Warehouse</span>
-                  <span class="badge badge-success menuItem rounded-circle">
-                    3
-                  </span>
+                  <span class="toggle-icon"></span>
                 </a>
+                <ul>
+                  <li class="l_sidebar">
+                    <a href="add-warehouse" data-layout="light">
+                      Create Warehouse
+                    </a>
+                  </li>
+                  <li class="l_sidebar">
+                    <a href="/all-warehouse" data-layout="light">
+                      All Warehouses
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li class="has-child">
                 <a href="#" class>
@@ -72,7 +83,7 @@ const Sidebar = () => {
                   </li>
                 </ul>
               </li>
-             
+
               <li class="has-child">
                 <a href="#" class>
                   <span class="nav-icon uil uil-user"></span>
