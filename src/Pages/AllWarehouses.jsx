@@ -83,12 +83,12 @@ const AllWarehouses = () => {
                           <th>Warehouse Name</th>
                           <th>Warehouse ID</th>
                           <th>Created Date</th>
-                          <th>Order Date</th>
+                          {/* <th>Order Date</th> */}
                           <th>Customer Name</th>
                           <th>Address</th>
-                          <th>Invoice Number</th>
-                          <th>Unit Price</th>
-                          <th>Sales Price</th>
+                          {/* <th>Invoice Number</th>
+                          <th>Unit Price</th> */}
+                          {/* <th>Sales Price</th> */}
                           {/* <th>Payment Method</th> */}
                           {/* <th>Payment Status</th> */}
                           <th>Warehouse Location</th>
@@ -102,13 +102,11 @@ const AllWarehouses = () => {
                           <td>Meal Of Plate</td>
                           <td>#25</td>
                           <td>28 October 2023</td>
-                          <td>34 October 2023</td>
+                          
                           <td>John Bosco Doe</td>
                           <td>no 7 jesus street</td>
 
-                          <td>#443344</td>
-                          <td>&#8358;776</td>
-                          <td>&#8358;776</td>
+                        
                           
                           
                           <td>Heaven</td>
@@ -150,13 +148,11 @@ const AllWarehouses = () => {
                           <td>Meal Of Plate</td>
                           <td>#25</td>
                           <td>28 October 2023</td>
-                          <td>34 October 2023</td>
+                          
                           <td>John Bosco Doe</td>
                           <td>no 7 jesus street</td>
 
-                          <td>#443344</td>
-                          <td>&#8358;776</td>
-                          <td>&#8358;776</td>
+                        
                           
                           
                           <td>Heaven</td>
@@ -195,13 +191,11 @@ const AllWarehouses = () => {
                           <td>Meal Of Plate</td>
                           <td>#25</td>
                           <td>28 October 2023</td>
-                          <td>34 October 2023</td>
+                          
                           <td>John Bosco Doe</td>
                           <td>no 7 jesus street</td>
 
-                          <td>#443344</td>
-                          <td>&#8358;776</td>
-                          <td>&#8358;776</td>
+                        
                           
                           
                           <td>Heaven</td>
@@ -240,13 +234,11 @@ const AllWarehouses = () => {
                           <td>Meal Of Plate</td>
                           <td>#25</td>
                           <td>28 October 2023</td>
-                          <td>34 October 2023</td>
+                          
                           <td>John Bosco Doe</td>
                           <td>no 7 jesus street</td>
 
-                          <td>#443344</td>
-                          <td>&#8358;776</td>
-                          <td>&#8358;776</td>
+                        
                           
                           
                           <td>Heaven</td>
@@ -285,13 +277,11 @@ const AllWarehouses = () => {
                           <td>Meal Of Plate</td>
                           <td>#25</td>
                           <td>28 October 2023</td>
-                          <td>34 October 2023</td>
+                          
                           <td>John Bosco Doe</td>
                           <td>no 7 jesus street</td>
 
-                          <td>#443344</td>
-                          <td>&#8358;776</td>
-                          <td>&#8358;776</td>
+                        
                           
                           
                           <td>Heaven</td>
